@@ -4,4 +4,14 @@ body{
 .ball {
     color: white;
     margin:auto;
+    border-radius:50%;
+    background-color:blue;
+    display:flex;
+    margin:auto;
+    align-content:center;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    font-size: 22px;
+    font-weight: bold;
 }
