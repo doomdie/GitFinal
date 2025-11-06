@@ -1,10 +1,10 @@
 function onBallClick() {
-   
+var randomIncrease = getRandomIntInclusive(20,60)
 var elBall =  document.querySelector(".ball")
 var currentWidth = parseInt(elBall.style.width)
 var currentHeight = parseInt(elBall.style.height)
-var newWidth = currentWidth + 50
-var newHeight = currentHeight + 50
+var newWidth = currentWidth + randomIncrease
+var newHeight = currentHeight + randomIncrease
 if (newWidth >= 400 || newHeight >= 400){
     newWidth = 100
     newHeight = 100
